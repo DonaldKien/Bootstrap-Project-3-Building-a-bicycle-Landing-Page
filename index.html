@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Chapter 15</title>
+
+    <style type="text/css">
+    	
+    	body{
+    		background-image: url("source/bg.jpg");
+    	}
+    	.container{
+    		min-width: 1140px;
+    	}
+    	#navBar{
+    		background-image: url("source/bg-header.jpg");
+    		height: 100px;
+    		z-index: 1;
+    		position: fixed;
+    		width: 100%;
+    		top: 0px;
+    	}
+    	.navBarBtn{
+    		text-align: right;
+    		padding-top: 25px;
+    		color: #B5C1AD;
+    	}
+    	.navBarBtn a, .navBarBtn p{
+    		color: #B5C1AD;
+    		padding-right: 10px;
+    		padding-left: 10px;
+    	}
+    	.navBarBtn a:hover{
+    		text-decoration: none;
+    		color: white;
+    	}
+    	#navBarTriangle{
+    		margin-top: 11px;
+    		margin-left: 12px;
+    		width: 103px;
+    	}
+    	#content{
+    		margin-top: 100px;
+    		background-image: url("source/triangles.png"), url("source/bg-triangle.png") ;
+    		background-repeat: no-repeat;
+    		background-position: 80px 0px, 3px -90px;
+    		background-size: 60%, 52%;
+    		border-bottom: 2px solid white;
+    		padding-bottom: 20px;
+    	}
+    	#fixedGear{
+    		font-size: 3em;
+    	}
+    	#fixedGear a {
+    		color: #B5C1AD;
+    	}
+    	#fixedGear a:hover{
+    		color: white;
+    		text-decoration: none;
+    	}
+    	.date{
+    		color: #B5C1AD
+    	}
+    	#para1{
+    		color: white;
+    		text-align: justify;
+    		text-justify: inter-word;
+    		font-size: 0.9em;
+    	}
+    	a{
+    		color: #B5C1AD;
+    	}
+    	a:hover{
+    		color: white;
+    		text-decoration: none;
+    	}
+    	section{
+    	}
+    	#bottomBar img{
+    		text-align: center;
+    	}
+    	#bottomBar p{
+    		padding: 5px 0px 15px 0px;
+    		border-bottom: 1px solid #ffffff;
+    	}
+    	#bottomBar p:last-child{
+    		border-bottom: none;
+    	}
+    	h2{
+    		color: #B5C1AD
+    	}
+    	footer{
+    		background-image: url(source/bg-header.jpg);
+    		height: 50px;
+    	}
+    	footer p{
+    		color: #B5C1AD;
+    		text-align: right;
+    		padding-top: 10px;
+    	}
+    	footer p a{
+    		padding: 0px 10px;
+    	}
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+	<nav id="navBar">
+	   	<div class="container">
+			<div class="row">
+
+				<div class="col-5">
+					<img src="source\logo.png" alt="logo">
+					<img src="source\header-triangle.png" id="navBarTriangle">
+				</div>
+				
+				<div class="col-7 navBarBtn" >
+					<p>Donald Wong Hao Kien</p>
+	  				<a href="#">home</a>/<a href="#">news</a>/<a href="#">archives</a>/<a href="#">about</a>/<a href="#">contact</a>
+	   			</div>
+
+	   		</div>
+		</div><!--End of Container-->
+	</nav><!--End of navBar-->
+
+
+	<section>
+		<div class="container" id="content">
+
+			<div class="row">
+				<div class="col-6"></div>
+				<div class="col-6" id="fixedGear"><a href="#">FIXED GEAR FOREVER</a></div>
+			</div>
+
+			<div class="row" id="para1">
+				<div class="col-9"></div>
+
+				<div class="col-3">
+					<p class="date">16 APRIL 2011</p>
+					<p>
+						The veloheld combines minimalist design with superb quality. Devoid of excessive graphics and gear shift components, the veloheld product range delights us with its beauty and simplicity. The black and white (yin and yang?) bicycles feature a short wheelbase, a single gear and a narrow handlebar... All you need to explore the city streets.
+						<br>
+						For those who want to create their bike themselves, the veloheld frames come in three sizes and two colours and are the perfect starting point.
+						<br>
+						<a href="#">Continue reading...</a>
+					</p>	
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<div class="container" id="bottomBar">
+		<h2>MORE ARTICLES</h2>
+		<div class="row">
+			<div class="col-3">
+				<img src="source/more1.jpg" alt="theRoadAhead" width="250px">
+				<p><a href="#">On the Road: From the fixed gear fanatic's point of view</a></p>
+				<p><a href="#">Brand History: Pashley Cycles - hand-built in England</a></p>
+				<p><a href="#">Frame Wars: Innovations in cycle manufacture and repair</a></p>
+			</div>
+
+			<div class="col-3">
+				<img src="source/more2.jpg" alt="bicycleSketch" width="250px">	
+				<p><a href="#">Touring Diary: A sketchbook in your basket</a></p>
+				<p><a href="#">Top Ten Newcomers for 2012: A peek at what's to come</a></p>
+				<p><a href="#">InnerTube: The best cycling videos on the web</a></p>			
+			</div>
+
+			<div class="col-3">
+				<img src="source/more3.jpg" alt="product" width="250px">	
+				<p><a href="#">Product Review: All baskets were not created equal</a></p>
+				<p><a href="#">Going Public: Out & about with the founder of Public</a></p>
+				<p><a href="#">Cycle Lane Defence: Know your rights</a></p>			
+			</div>
+
+			<div class="col-3">
+				<img src="source/more4.jpg" alt="hallOfFame" width="250px">	
+				<p><a href="#">Bicycle Hall of Fame: The 1958 Schwinn Spitfire</a></p>
+				<p><a href="#">Reader Survey: Share your thoughts with us!</a></p>
+				<p><a href="#">Chain Gang: The evolution of the humble bike chain</a></p>			
+			</div>	
+		</div>
+	</div><!--End of Bottom Bar-->
+
+
+	<footer>
+		<div class="container">
+		<p><a href="#">Legal Information</a>|<a href="#">Privacy Policy</a>|<a href="#">Copyright © Donald Wong Hao Kien 2020</a></p>
+		</div>
+	</footer>
+
+
+  </body>
+</html>
